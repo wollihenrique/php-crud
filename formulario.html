@@ -6,7 +6,8 @@
     <title>Tela de Login</title>
 </head>
 <body>
-    <div class="box">
+    <a href="home.html">Voltar</a>
+    <div>
         <form action="formulario.php" method="post">
             <fieldset>
                 <legend><b>Formulário de Clientes</b></legend>
@@ -16,14 +17,19 @@
                     <label for="nome">Nome Completo</label>
                 </div>
                 <br>
+                <div class="InputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone">Telefone</label>
+                </div>
+                <br>
                 <div class="inputBox">
                     <input type="email" name="email" id="email" class="inputUser" required>
                     <label for="email">E-mail</label>
                 </div>
                 <br>
-                <div class="InputBox">
-                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-                    <label for="telefone">Telefone</label>
+                <div class="inputBox">
+                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                    <label for="senha">Senha</label>
                 </div>
                 <br>
                 <p>Gênero</p>

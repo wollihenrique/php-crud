@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+div {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    background-color: dodgerblue;
+    padding: 8px;
+    border-radius: 25px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    width: 150px;
+}
