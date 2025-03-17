@@ -57,11 +57,11 @@ input {
     width: 300px;
 }
 
-button {
+input[type='submit'] {
     border: none;
     border-radius: 25px;
     padding: 8px;
-    background-color: dodgerblue;
+    background-color: #6495ED;
     cursor: pointer;
     width: 150px;
     font-size: 18px;

@@ -1,0 +1,28 @@
+body {
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    background-color: gray;
+    border: 1px solid darkgray;
+    border-radius: 15px;
+    color: black;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 8px;
+    position: absolute;
+    top: 2vh;
+    left: 2vh;
+}
+
+h1 {
+    font-family: 'Monteserrat sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
